@@ -12,8 +12,6 @@ shift
 for file in $*
 do
  echo "We need to change $OLDSTRING to $NEWSTRING in $file" 
- # ls -l $file 
- # cat $file
  cat $file | sed -e "s|$OLDSTRING|$NEWSTRING|g" > tmpfile
  cp tmpfile $file
 
