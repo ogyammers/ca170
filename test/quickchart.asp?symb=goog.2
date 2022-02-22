@@ -1,0 +1,867 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <title>Alphabet Inc. Cl C, GOOG Quick Chart - (NAS) GOOG, Alphabet Inc. Cl C Stock Price - BigCharts.com</title>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"cd2b77ba49","applicationID":"644664395","transactionName":"ZwEAbRQCWEVVVBYPVl5LL28lTHVeVUUWJVZeEBBWCg9TRBtmFw9aWycKWBQX","queueTime":0,"applicationTime":256,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"cd2b77ba49",applicationID:"644664395"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+            <meta name="description" content="GOOG - Alphabet Inc. Cl C Basic Chart, Quote and financial news from the leading provider and award-winning BigCharts.com." />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+        <link rel="canonical" href="/quickchart/quickchart.asp?symb=GOOG&amp;insttype=Stock" />
+        
+     
+
+    <link rel="stylesheet" href="/content/v0022/css/reset.css" />
+    <link rel="stylesheet" href="/content/v0022/css/reset-html5.css" />
+    <link rel="stylesheet" href="/content/v0022/css/bigcharts.css?v=ad" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        
+    
+    <!--[if lt IE 9]>
+        <script src="/content/v0022/js/html5.js"></script>
+    <![endif]-->
+        
+    <script src="/content/v0022/js/jquery-3.4.1.min.js"></script>
+     
+
+
+    
+<script>
+    
+    !function () { var e = function () { var e, t = "__tcfapiLocator", a = [], n = window; for (; n;) { try { if (n.frames[t]) { e = n; break } } catch (e) { } if (n === window.top) break; n = n.parent } e || (!function e() { var a = n.document, r = !!n.frames[t]; if (!r) if (a.body) { var i = a.createElement("iframe"); i.style.cssText = "display:none", i.name = t, a.body.appendChild(i) } else setTimeout(e, 5); return !r }(), n.__tcfapi = function () { for (var e, t = arguments.length, n = new Array(t), r = 0; r < t; r++)n[r] = arguments[r]; if (!n.length) return a; if ("setGdprApplies" === n[0]) n.length > 3 && 2 === parseInt(n[1], 10) && "boolean" == typeof n[3] && (e = n[3], "function" == typeof n[2] && n[2]("set", !0)); else if ("ping" === n[0]) { var i = { gdprApplies: e, cmpLoaded: !1, cmpStatus: "stub" }; "function" == typeof n[2] && n[2](i) } else a.push(n) }, n.addEventListener("message", (function (e) { var t = "string" == typeof e.data, a = {}; try { a = t ? JSON.parse(e.data) : e.data } catch (e) { } var n = a.__tcfapiCall; n && window.__tcfapi(n.command, n.version, (function (a, r) { var i = { __tcfapiReturn: { returnValue: a, success: r, callId: n.callId } }; t && (i = JSON.stringify(i)), e.source.postMessage(i, "*") }), n.parameter) }), !1)) }; "undefined" != typeof module ? module.exports = e : e() }();
+    !function(e){var n={};function t(r){if(n[r])return n[r].exports;var o=n[r]={i:r,l:!1,exports:{}};return e[r].call(o.exports,o,o.exports,t),o.l=!0,o.exports}t.m=e,t.c=n,t.d=function(e,n,r){t.o(e,n)||Object.defineProperty(e,n,{enumerable:!0,get:r})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,n){if(1&n&&(e=t(e)),8&n)return e;if(4&n&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(t.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&n&&"string"!=typeof e)for(var o in e)t.d(r,o,function(n){return e[n]}.bind(null,o));return r},t.n=function(e){var n=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(n,"a",n),n},t.o=function(e,n){return Object.prototype.hasOwnProperty.call(e,n)},t.p="/",t(t.s=0)}([function(e,n,t){"use strict";t.r(n);var r="cookieOnly",o="cookieFirst",u="tcfapiOnly",i="tcfapiFirst",c=function(){return!(-1!==(document&&document.cookie||"").indexOf("gdprApplies=false"))},f=function(){return window&&window.djcmp&&window.djcmp.tcData&&window.djcmp.tcData.gdprApplies},p=function(){var e=f();return"boolean"!=typeof e||e},a=function(){return-1!==(document&&document.cookie||"").indexOf("gdprApplies=")?c():p()},d=function(){var e=f();return"boolean"==typeof e?e:c()},l=function(e,n){switch(e){case r:return c();case u:return"function"==typeof n?function(e){var n=f();return"boolean"==typeof n?e(n):window.__tcfapi("getTCData",2,(function(n){var t="boolean"!=typeof n.gdprApplies||n.gdprApplies;e(t)}))}(n):p();case o:return a();case i:default:return d()}};!function(){var e=[];function n(){e.push(arguments)}window.djcmp||(n.gdprApplies=l,n.queue=e,window.djcmp=n)}()}]);
+
+    window.googletag = window.googletag || { cmd: [] };
+    window.pbjs = window.pbjs || { que: [] };
+
+    (function() {
+        googletag.cmd.push(function() {
+            googletag.pubads().disableInitialLoad();
+            googletag.pubads().setTargeting('pagetype', 'BigCharts');
+        });
+    })();
+</script>
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" onload="performance.mark('gpt-tagLoaded')"></script>
+    <script async src="https://us.tags.newscgp.com/prod/prebid/marketwatch/pb-no-auto.js" onload="performance.mark('prebid-tagLoaded')"></script>
+
+<script async src="https://www.marketwatch.com/asset/ace/ace.min.js" data-product="marketwatch" data-config="%7B%22enableSourcepoint%22%3Atrue%7D" data-ace-uac-url="https://www.marketwatch.com/asset/ace" id="ace-manifest"></script>
+
+
+</head>
+    <body>
+	    
+    <header>
+        
+<div class="header-cont ">
+    <div id="logo">
+        <a href="/default.asp">
+            <img src="https://mw1.wsj.net/mw5/content/logos/bigcharts_logo.svg" alt="BigCharts" />
+        </a>
+    </div>
+    
+    <div id="bc-header-ad" class="advertisement">
+        <script>
+            !function () {
+                var options = {
+                    options: {
+                        adActivate: true,
+                        adId: 'bc-header-ad',
+                        adUnitPath: '/2/bigcharts.marketwatch.com/quickcharts_frontpage',
+                        adSize: [[728,90]],
+                            adTargeting: {"pos":[1]},
+                        isObserve: true,
+                        observeFromUAC: true,
+                        triggerPrebid: true,
+                        moatEnabled: true,
+                        collapseAdBeforeFetch: true
+                    }
+                };
+                if (window.BigCharts && window.BigCharts.Ads && window.BigCharts.Ads.proximicSegments) {
+                    if (!options.options.adTargeting) {
+                        options.options.adTargeting = {};                        
+                    }
+                    options.options.adTargeting['psg'] = window.BigCharts.Ads.proximicSegments;
+                }
+                if (!window.uacQueue) { window.uacQueue = []; }
+                if (typeof window.__buildAd === 'function') {
+                    window.__buildAd(options);
+                } else {
+                    window.uacQueue.push(options);
+                }
+            }();
+        </script>
+    </div>
+
+    <div class="chart-bar">    
+        
+<div id="chartsearch" class="chartsearch autocomplete" data-ac-url="/AutoComplete">
+    <form name="fachart" class="advchart" method="get" action="/advchart/frames/frames.asp">
+        <input type="hidden" name="symb" data-orig="goog" value=""/>
+        <input type="hidden" name="insttype" value=""/>
+        <input type="hidden" name="time" value="8"/>
+        <input type="hidden" name="freq" value="1"/>
+    </form>
+    <form name="fjchart" class="intchart" method="get" action="/chart/InteractiveChart">
+        <input type="hidden" name="symb" data-orig="goog" value=""/>
+        <input type="hidden" name="insttype" value=""/>
+        <input type="hidden" name="time" value="8"/>
+        <input type="hidden" name="freq" value="1"/>
+    </form>
+    <form id="qchartform" name="qchart" class="quickchart" action="/quickchart/quickchart.asp" method="get">
+        <input type="text" name="symb" maxlength="50" class="ac-bc-input" data-orig="goog" value="goog" />
+        <input type="hidden" name="insttype" value=""/>
+        <input type="hidden" name="freq" value="1"/>
+        <input type="hidden" name="show" value=""/>
+    <select id="time" name="time" class="timedd resetinvalids">
+		<option value="1" >1 day</option>
+		<option value="2" >2 days</option>
+		<option value="3" >5 days</option>
+		<option value="18" >10 days</option>
+		<option value="0" class="invalid"> ----------</option>
+		<option value="4" >1 month</option>
+		<option value="5" >2 months</option>
+		<option value="6" >3 months</option>
+		<option value="7" >6 months</option>
+		<option value="19" >YTD</option>
+		<option value="8" selected class="default">1 year</option>
+		<option value="9" >2 years</option>
+		<option value="10" >3 years</option>
+		<option value="11" >4 years</option>
+		<option value="12" >5 years</option>
+		<option value="13" >1 decade</option>
+		<option value="20" >All Data</option>
+	</select>
+        
+        <button type="submit">Basic Chart</button>
+        <button type="submit" class="advanced">Advanced Chart</button>
+    </form>
+</div>
+
+
+
+        
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="clear"></div>
+        
+
+	<div id="navigation" class="clear">
+	    <ul>
+	            <li class=" first">
+<a href="/default.asp">Home</a>	            </li>
+	            <li class="">
+<a href="/quotes/default.asp">Quotes</a>	            </li>
+	            <li class="">
+<a href="/news/default.asp">News</a>	            </li>
+	            <li class="">
+<a href="/industry/bigcharts-com/default.asp">Industries</a>	            </li>
+	            <li class="">
+<a href="/markets/default.asp">Markets</a>	            </li>
+	            <li class=" last">
+<a href="/historical/default.asp">Historical Quotes</a>	            </li>
+	    </ul>
+	    <div class="hat_search">	        <div>	            <input type="text" value="Enter Symbols or Keywords" class="hat_input hat_unused" id="hat_input" name="ctl108" autocomplete="off" onchange=""/>	            <div id="hat_button" onclick="javascript:hat.search();"></div>	        </div>	        <div id="symbolCompleteResults" class="symbolCompleteResults"></div>	    </div>	    <div class="hat_search_label">MarketWatch Search</div>	    <div class="clear"></div>
+    </div>
+
+    </header>
+    
+    <div id="nonchrome" class="bigbottom app">
+        
+    <div id="trading-center">
+        <ul class="list list--broker">
+                <li class="broker__item">
+                        <div id="ad-generated-4" class="advertisement">
+        <script>
+            !function () {
+                var options = {
+                    options: {
+                        adActivate: true,
+                        adId: 'ad-generated-4',
+                        adUnitPath: '/2/brokerbuttons.bigcharts.com/quickcharts_frontpage',
+                        adSize: [[120,60]],
+                            adTargeting: {"pos":[1]},
+                        isObserve: true,
+                        observeFromUAC: true,
+                        triggerPrebid: true,
+                        moatEnabled: true,
+                        collapseAdBeforeFetch: true
+                    }
+                };
+                if (window.BigCharts && window.BigCharts.Ads && window.BigCharts.Ads.proximicSegments) {
+                    if (!options.options.adTargeting) {
+                        options.options.adTargeting = {};                        
+                    }
+                    options.options.adTargeting['psg'] = window.BigCharts.Ads.proximicSegments;
+                }
+                if (!window.uacQueue) { window.uacQueue = []; }
+                if (typeof window.__buildAd === 'function') {
+                    window.__buildAd(options);
+                } else {
+                    window.uacQueue.push(options);
+                }
+            }();
+        </script>
+    </div>
+
+                </li>
+                <li class="broker__item">
+                        <div id="ad-generated-5" class="advertisement">
+        <script>
+            !function () {
+                var options = {
+                    options: {
+                        adActivate: true,
+                        adId: 'ad-generated-5',
+                        adUnitPath: '/2/brokerbuttons.bigcharts.com/quickcharts_frontpage',
+                        adSize: [[120,60]],
+                            adTargeting: {"pos":[2]},
+                        isObserve: true,
+                        observeFromUAC: true,
+                        triggerPrebid: true,
+                        moatEnabled: true,
+                        collapseAdBeforeFetch: true
+                    }
+                };
+                if (window.BigCharts && window.BigCharts.Ads && window.BigCharts.Ads.proximicSegments) {
+                    if (!options.options.adTargeting) {
+                        options.options.adTargeting = {};                        
+                    }
+                    options.options.adTargeting['psg'] = window.BigCharts.Ads.proximicSegments;
+                }
+                if (!window.uacQueue) { window.uacQueue = []; }
+                if (typeof window.__buildAd === 'function') {
+                    window.__buildAd(options);
+                } else {
+                    window.uacQueue.push(options);
+                }
+            }();
+        </script>
+    </div>
+
+                </li>
+                <li class="broker__item">
+                        <div id="ad-generated-6" class="advertisement">
+        <script>
+            !function () {
+                var options = {
+                    options: {
+                        adActivate: true,
+                        adId: 'ad-generated-6',
+                        adUnitPath: '/2/brokerbuttons.bigcharts.com/quickcharts_frontpage',
+                        adSize: [[120,60]],
+                            adTargeting: {"pos":[3]},
+                        isObserve: true,
+                        observeFromUAC: true,
+                        triggerPrebid: true,
+                        moatEnabled: true,
+                        collapseAdBeforeFetch: true
+                    }
+                };
+                if (window.BigCharts && window.BigCharts.Ads && window.BigCharts.Ads.proximicSegments) {
+                    if (!options.options.adTargeting) {
+                        options.options.adTargeting = {};                        
+                    }
+                    options.options.adTargeting['psg'] = window.BigCharts.Ads.proximicSegments;
+                }
+                if (!window.uacQueue) { window.uacQueue = []; }
+                if (typeof window.__buildAd === 'function') {
+                    window.__buildAd(options);
+                } else {
+                    window.uacQueue.push(options);
+                }
+            }();
+        </script>
+    </div>
+
+                </li>
+                <li class="broker__item">
+                        <div id="ad-generated-7" class="advertisement">
+        <script>
+            !function () {
+                var options = {
+                    options: {
+                        adActivate: true,
+                        adId: 'ad-generated-7',
+                        adUnitPath: '/2/brokerbuttons.bigcharts.com/quickcharts_frontpage',
+                        adSize: [[120,60]],
+                            adTargeting: {"pos":[4]},
+                        isObserve: true,
+                        observeFromUAC: true,
+                        triggerPrebid: true,
+                        moatEnabled: true,
+                        collapseAdBeforeFetch: true
+                    }
+                };
+                if (window.BigCharts && window.BigCharts.Ads && window.BigCharts.Ads.proximicSegments) {
+                    if (!options.options.adTargeting) {
+                        options.options.adTargeting = {};                        
+                    }
+                    options.options.adTargeting['psg'] = window.BigCharts.Ads.proximicSegments;
+                }
+                if (!window.uacQueue) { window.uacQueue = []; }
+                if (typeof window.__buildAd === 'function') {
+                    window.__buildAd(options);
+                } else {
+                    window.uacQueue.push(options);
+                }
+            }();
+        </script>
+    </div>
+
+                </li>
+        </ul>
+    </div>
+        
+
+
+<div id="quickchart">
+    
+    <table>
+        <tr>
+            <td class="maincontent" style="padding-right: 5px;">
+                <table id="quote">
+                    
+
+
+
+<tr class="header">
+	<td colspan="5" class="soft">
+        <div class="fleft ticker">GOOG</div> 
+        <div class="fleft">Alphabet Inc. Cl C (NAS)</div>
+        <div class="fleft">Delayed quote data</div>
+        <div class="clear"></div>
+    </td>
+	<td class="soft time">2/17/2022 04:00 PM</td>
+</tr>
+
+
+<tr class="label">
+        <td class="acenter"><a href="/quickchart/quickchart.asp?symb=goog&amp;freq=1&amp;time=8&amp;show=False">hide quote</a></td>
+    <td class="acenter"><a href="/quickchart/qsymbinfo.asp?sid=14766457&amp;symb=goog&amp;time=8&amp;freq=1">detailed quote</a></td>
+    <td class="acenter"><a href="/quickchart/options.asp?sid=14766457&amp;symb=goog">options chain</a></td>
+        <td colspan="2"></td>
+    <td class="acenter help-cell"><a class="openhelp" href="/help?helpSection=BasicCharts&amp;helpSubSection=HowToUse">chart help</a> <a class="openhelp helpicon" href="/help?helpSection=BasicCharts&amp;helpSubSection=HowToUse"></a></td>
+</tr>
+
+
+
+<tr>
+	<td rowspan="2" class="last">
+		<span class="label">Last:</span>
+		<div>2,646.17</div>
+	</td>
+
+	<td class="change">
+		<span class="label">Change:</span>
+		<div class="important negative">
+            <img src="/content/v0022/images/icons/arrow_dn_sm.gif" alt="arrow" />
+            <span> -103.58</span>
+        </div>
+	</td>
+	<td>
+		<span class="label">Open:</span>
+		<div>2,723.00</div>
+	</td>
+	<td>
+		<span class="label">High:</span>
+		<div>2,736.79</div>
+	</td>
+	<td>
+		<span class="label">Low:</span>
+		<div>2,644.04</div>
+
+	</td>
+	<td>
+		<span class="label">Volume:</span>
+		<div>1,544,898</div>
+	</td>
+</tr>
+<tr>
+	<td class="change">
+		<span class="label">Percent Change:</span>
+		<div class="important negative">-3.77%</div>
+	</td>
+	<td>
+		<span class="label">Yield:</span>
+		<div>n/a</div>
+	</td>
+	<td>
+		<span class="label">P/E Ratio:</span>
+		<div>23.5779</div>
+	</td>
+	<td colspan="2">
+		    <span class="label">52 Week Range:</span>
+		    <div>2,002.02 to 3,042.00</div>
+	</td>
+</tr>
+    <tr class="afterhours">
+	    <td colspan="2">
+		    <div>After Hours Trading</div>
+		    <div class="understated">2/17/2022 05:27 PM</div>
+	    </td>
+	    <td>
+		    <div>Last:</div>
+		    <div>2,648.18</div>
+	    </td>
+	    <td class="change">
+		    <div>Change:</div>
+		    <div>
+                <img src="/content/v0022/images/icons/arrow_up_sm.gif" alt="arrow" />
+                <span class="positive"> +2.01</span>
+            </div>
+	    </td>
+	    <td colspan="2">
+		    <div>Volume:</div>
+		    <div>133,202</div>
+	    </td>
+    </tr>
+                </table>
+
+
+<div class="chart-res padded">
+    <div class="acenter padded">
+	    <a href="/news/symbolsearch/symbolnews.asp?sid=14766457&amp;symb=GOOG">News</a> |
+	    <a href="/news/symbolsearch/symbolnews.asp?sid=14766457&amp;symb=GOOG&amp;news=markadv">Market Advisers</a> |
+	    <a href="https://www.marketwatch.com/investing/stock/GOOG/analystestimates" target="new">Analysts</a> |
+	    <a href="https://www.marketwatch.com/investing/stock/GOOG/secfilings" target="new">SEC Filings</a> |
+	    <a href="https://www.marketwatch.com/investing/stock/GOOG/insideractions" target="new">Insiders</a> |
+	    <a href="https://marketwatch.ar.wilink.com?link=GOOG" target="new">Annual Report</a> |
+	    <a href="http://www.marketwatch.com/investing/stock/GOOG/profile" target="new">Profile</a>			
+    </div>
+    <div class="acenter padded">
+	    <img src="/content/v0022/images/icons/icon-tools.gif" width="9" height="11" />
+	    <a href="https://www.marketwatch.com/user/account/logon?siteid=bigcharts&dist=alrtBC&returnURL=/tools/alerts/newssymbol.asp?siteid=bigcharts&dist=alrtBC&selectedType=2&alertsymbol=GOOG" target="new">Create Alert</a>  |
+	    <img src="/content/v0022/images/icons/icon-tools.gif" width="9" height="11" />
+	    <a href="http://www.marketwatch.com/watchlist" target="new">Go to Watchlist</a>  |
+	    <img src="/content/v0022/images/icons/dollar.gif" width="9" height="11" />
+	    <a href="https://www.marketwatch.com/premium-newsletters/technical-indicator?link=BC_TTI" target="new">Technical Analysis</a>
+    </div>
+</div>
+                
+    <div class="customchart acenter bedonkbottom">
+        <table class="chart-cont">
+            <tr>
+                <td class="padded vatop">
+                    <img src="https://api.wsj.net/api/kaavio/charts/big.chart?nosettings=1&amp;symb=goog&amp;uf=0&amp;type=2&amp;size=2&amp;sid=14766457&amp;style=320&amp;freq=1&amp;entitlementtoken=0c33378313484ba9b46b8e24ded87dd6&amp;time=8&amp;rand=1770526745&amp;compidx=&amp;ma=0&amp;maval=9&amp;lf=1&amp;lf2=0&amp;lf3=0&amp;height=335&amp;width=579&amp;mocktick=1"/>
+                    <div class="aright">
+                            <div id="ad-generated-1" class="advertisement">
+        <script>
+            !function () {
+                var options = {
+                    options: {
+                        adActivate: true,
+                        adId: 'ad-generated-1',
+                        adUnitPath: '/2/bigcharts.marketwatch.com/quickcharts_frontpage',
+                        adSize: [[300,32]],
+                        isObserve: true,
+                        observeFromUAC: true,
+                        triggerPrebid: true,
+                        moatEnabled: true,
+                        collapseAdBeforeFetch: true
+                    }
+                };
+                if (window.BigCharts && window.BigCharts.Ads && window.BigCharts.Ads.proximicSegments) {
+                    if (!options.options.adTargeting) {
+                        options.options.adTargeting = {};                        
+                    }
+                    options.options.adTargeting['psg'] = window.BigCharts.Ads.proximicSegments;
+                }
+                if (!window.uacQueue) { window.uacQueue = []; }
+                if (typeof window.__buildAd === 'function') {
+                    window.__buildAd(options);
+                } else {
+                    window.uacQueue.push(options);
+                }
+            }();
+        </script>
+    </div>
+
+                    </div>
+                    <div class="links bedonkbottomed">
+                        <img src="/content/v0022/images/icons/emailchart.gif"/>
+                        <a class="understated" href="/email/notify.asp?nosettings=1&amp;symb=goog&amp;uf=0&amp;type=2&amp;size=2&amp;sid=14766457&amp;style=320&amp;freq=1&amp;entitlementtoken=0c33378313484ba9b46b8e24ded87dd6&amp;time=8&amp;rand=1770526745&amp;compidx=&amp;ma=0&amp;maval=9&amp;lf=1&amp;lf2=0&amp;lf3=0&amp;height=335&amp;width=579&amp;mocktick=1">email this chart</a>
+                        <img src="/content/v0022/images/icons/printchart.gif"/>
+                        <a class="understated" href="/print/print.asp?nosettings=1&amp;symb=goog&amp;uf=0&amp;type=2&amp;size=2&amp;sid=14766457&amp;style=320&amp;freq=1&amp;entitlementtoken=0c33378313484ba9b46b8e24ded87dd6&amp;time=8&amp;rand=1770526745&amp;compidx=&amp;ma=0&amp;maval=9&amp;lf=1&amp;lf2=0&amp;lf3=0&amp;height=335&amp;width=579&amp;mocktick=1&amp;showColor=False" target="_blank">printer-friendly format</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+                
+
+<div class="heading">
+<span class="moreinfo fright">05:42 PM ET</span>
+<h2 class="quote bigbottom">
+    Headlines for Alphabet Inc. Cl C (NAS:GOOG)
+</h2>
+</div>
+	
+<h3 class="shadedheavy">News for Alphabet Inc. Cl C</h3>
+    <ol class="headlines">
+		    <li>
+			    <p class="understated">Thursday, February 17, 2022</p>
+			    <ol>
+				        <li class="shaded">
+					        <p class="fright understated">01:51 PM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/stock-market-faces-the-most-massive-misallocation-of-capital-in-the-history-of-mankind-says-arks-cathie-wood-11645123885?siteid=bigcharts&dist=bigcharts" target="new">Stock market faces the most ‘massive misallocation’ of ‘capital in the history of mankind,’ says ARK’s Cathie Wood</a> <span class="provider">MarketWatch</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class="fright understated">01:00 PM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/nvidias-core-businesses-are-still-growing-rapidly-but-two-rare-risks-have-emerged-11645120816?siteid=bigcharts&dist=bigcharts" target="new">Nvidia’s core businesses are still growing rapidly but two rare risks have emerged</a> <span class="provider">MarketWatch</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class="fright understated">11:11 AM ET</p>
+					        <p class="headline"><a href="https://www.wsj.com/articles/marketers-prepare-for-further-change-as-google-pledges-mobile-privacy-moves-11645114272" target="new">Marketers Prepare for Further Change as Google Pledges Mobile-Privacy Moves</a> <span class="provider">The Wall Street Journal Interactive Edition</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class="fright understated">10:44 AM ET</p>
+					        <p class="headline"><a href="https://www.wsj.com/articles/activist-investor-daniel-loeb-sees-roughly-1-trillion-of-untapped-value-in-amazon-11645048496" target="new">Loeb Sees Roughly $1 Trillion of Untapped Value in Amazon</a> <span class="provider">The Wall Street Journal Interactive Edition</span></p>
+				        </li>
+			    </ol>
+		    </li>
+		    <li>
+			    <p class="understated">Wednesday, February 16, 2022</p>
+			    <ol>
+				        <li class="shaded">
+					        <p class="fright understated">06:27 PM ET</p>
+					        <p class="headline"><a href="https://www.wsj.com/articles/chinas-5g-america-streaming-speed-midband-investment-innovation-competition-act-semiconductor-biotech-ai-11645046867" target="new">China’s 5G Soars Over America’s</a> <span class="provider">The Wall Street Journal Interactive Edition</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class="fright understated">04:54 PM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/10-tech-value-stocks-that-at-least-75-of-analysts-rate-as-a-buy-right-now-11644855285?siteid=bigcharts&dist=bigcharts" target="new">10 tech value stocks that at least 75% of analysts rate as a ‘buy’ right now</a> <span class="provider">MarketWatch</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class="fright understated">04:21 PM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/u-s-stock-futures-slip-ahead-of-retail-sales-data-and-fed-minutes-as-investors-eye-russia-ukraine-headlines-11645011574?siteid=bigcharts&dist=bigcharts" target="new">S&P 500 ends higher for 2nd day after Fed minutes affirms plan for faster rate hikes, balance-sheet cuts</a> <span class="provider">MarketWatch</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class="fright understated">03:40 PM ET</p>
+					        <p class="headline"><a href="https://www.wsj.com/articles/google-plans-to-curtail-cross-app-tracking-on-android-phones-11645016401" target="new">Google to Curtail Cross-App Tracking on Android Phones</a> <span class="provider">The Wall Street Journal Interactive Edition</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class="fright understated">09:35 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/google-to-curtail-cross-app-tracking-on-android-phones-11645022140?siteid=bigcharts&dist=bigcharts" target="new">Google to curtail cross-app tracking on Android phones</a> <span class="provider">MarketWatch</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class="fright understated">08:16 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/zuckerberg-tells-facebook-employees-they-are-now-metamates-11644959008?siteid=bigcharts&dist=bigcharts" target="new">Zuckerberg tells Facebook employees they are now ‘Metamates’</a> <span class="provider">MarketWatch</span></p>
+				        </li>
+			    </ol>
+		    </li>
+	</ol>
+<p class="bigbottom more">
+<a href="https://www.marketwatch.com/investing/stock/GOOG/news" target="new">More</a></p>
+
+<h3 class="shadedheavy">Company Releases for Alphabet Inc. Cl C</h3>
+    <ol class="headlines">
+            <li>
+			    <p class="understated">Tuesday, February 15, 2022</p>
+			    <ol>
+				        <li class="shaded">
+					        <p class=" fright understated">08:02 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/how-a-helium-shortage-could-crash-the-internet-2022-02-15-8197132?siteid=bigcharts&dist=bigcharts" target="new">How A Helium Shortage Could Crash The Internet</a> <span class="provider">Financial News Media</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class=" fright understated">08:00 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/how-a-helium-shortage-could-crash-the-internet-2022-02-15?siteid=bigcharts&dist=bigcharts" target="new">How A Helium Shortage Could Crash The Internet</a> <span class="provider">PR Newswire - PRF</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class=" fright understated">07:08 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/alphabet-inc-class-c-goog-trading-report-2022-02-15?siteid=bigcharts&dist=bigcharts" target="new">Alphabet Inc Class C GOOG Trading Report</a> <span class="provider">Stock Traders Daily</span></p>
+				        </li>
+			    </ol>
+		    </li>
+            <li>
+			    <p class="understated">Monday, February 14, 2022</p>
+			    <ol>
+				        <li class="shaded">
+					        <p class=" fright understated">05:37 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/alphabet-inc-class-c-nasdaq-goog-and-other-big-tech-companies-retain-top-talent-due-to-restricted-stock-grants-2022-02-14?siteid=bigcharts&dist=bigcharts" target="new">Alphabet Inc Class C (NASDAQ: GOOG) and Other Big Tech Companies Retain Top Talent Due to Restricted Stock Grants</a> <span class="provider">WallStreetPR</span></p>
+				        </li>
+			    </ol>
+		    </li>
+            <li>
+			    <p class="understated">Thursday, February 10, 2022</p>
+			    <ol>
+				        <li class="shaded">
+					        <p class=" fright understated">06:23 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/amazoncom-inc-nasdaq-amzn-is-rising-the-price-for-amazon-prime-2022-02-10?siteid=bigcharts&dist=bigcharts" target="new">Amazon.com, Inc (NASDAQ: AMZN) Is Rising the Price for Amazon Prime</a> <span class="provider">WallStreetPR</span></p>
+				        </li>
+			    </ol>
+		    </li>
+            <li>
+			    <p class="understated">Saturday, February 05, 2022</p>
+			    <ol>
+				        <li class="shaded">
+					        <p class=" fright understated">12:29 PM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/alphabet-inc-class-c-goog-trading-report-2022-02-05?siteid=bigcharts&dist=bigcharts" target="new">Alphabet Inc Class C (GOOG) Trading Report</a> <span class="provider">Stock Traders Daily</span></p>
+				        </li>
+			    </ol>
+		    </li>
+            <li>
+			    <p class="understated">Tuesday, February 01, 2022</p>
+			    <ol>
+				        <li class="shaded">
+					        <p class=" fright understated">11:17 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/alphabet-inc-class-c-goog-technical-analysis-2022-02-01?siteid=bigcharts&dist=bigcharts" target="new">Alphabet Inc Class C GOOG Technical Analysis</a> <span class="provider">Stock Traders Daily</span></p>
+				        </li>
+			    </ol>
+		    </li>
+            <li>
+			    <p class="understated">Tuesday, January 25, 2022</p>
+			    <ol>
+				        <li class="shaded">
+					        <p class=" fright understated">07:01 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/sibros-closes-70-million-series-b-funding-to-power-the-connected-vehicle-ecosystem-2022-01-25?siteid=bigcharts&dist=bigcharts" target="new">Sibros Closes $70 Million Series B Funding to Power the Connected Vehicle Ecosystem</a> <span class="provider">GlobeNewswire</span></p>
+				        </li>
+				        <li class="shaded">
+					        <p class=" fright understated">06:13 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/alphabet-inc-class-c-nasdaq-goog-engineer-reveals-how-they-made-over-1-million-in-total-annual-compensation-2022-01-25?siteid=bigcharts&dist=bigcharts" target="new">Alphabet Inc Class C (NASDAQ: GOOG) Engineer Reveals How They Made Over $1 Million in Total Annual Compensation</a> <span class="provider">WallStreetPR</span></p>
+				        </li>
+			    </ol>
+		    </li>
+            <li>
+			    <p class="understated">Monday, January 24, 2022</p>
+			    <ol>
+				        <li class="shaded">
+					        <p class=" fright understated">10:15 AM ET</p>
+					        <p class="headline"><a href="https://www.marketwatch.com/story/rewards-bunny-announces-participation-in-global-launch-by-500-global-2022-01-24?siteid=bigcharts&dist=bigcharts" target="new">Rewards Bunny Announces Participation in Global Launch by 500 Global</a> <span class="provider">ABNewswire</span></p>
+				        </li>
+			    </ol>
+		    </li>
+	</ol>
+<p class="bigbottom more">
+<a href="https://www.marketwatch.com/investing/stock/GOOG/news" target="new">More</a></p>
+	
+<p class="shaded more padded">
+<a href="https://www.marketwatch.com/investing/stock/GOOG/news" target="new">Most recent headlines</a></p>
+
+
+            </td>
+            <td class="right-column">
+                    <div id="ad-generated-2" class="advertisement">
+        <script>
+            !function () {
+                var options = {
+                    options: {
+                        adActivate: true,
+                        adId: 'ad-generated-2',
+                        adUnitPath: '/2/bigcharts.marketwatch.com/quickcharts_frontpage',
+                        adSize: [[300,250],[300,600]],
+                            adTargeting: {"pos":[2]},
+                        isObserve: true,
+                        observeFromUAC: true,
+                        triggerPrebid: true,
+                        moatEnabled: true,
+                        collapseAdBeforeFetch: true
+                    }
+                };
+                if (window.BigCharts && window.BigCharts.Ads && window.BigCharts.Ads.proximicSegments) {
+                    if (!options.options.adTargeting) {
+                        options.options.adTargeting = {};                        
+                    }
+                    options.options.adTargeting['psg'] = window.BigCharts.Ads.proximicSegments;
+                }
+                if (!window.uacQueue) { window.uacQueue = []; }
+                if (typeof window.__buildAd === 'function') {
+                    window.__buildAd(options);
+                } else {
+                    window.uacQueue.push(options);
+                }
+            }();
+        </script>
+    </div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        if (dianomiReloadContext != null && dianomiReloadContext != undefined) {
+            dianomiReloadContext();
+        }
+    });
+</script>
+<div class="dianomi_context" data-dianomi-context-id="33"></div>            </td>
+        </tr>
+    </table>
+    <div class="acenter padded">
+        <script type="text/javascript">
+    $(document).ready(function () {
+        if (dianomiReloadContext != null && dianomiReloadContext != undefined) {
+            dianomiReloadContext();
+        }
+    });
+</script>
+<div class="dianomi_context" data-dianomi-context-id="35"></div>
+    </div>
+</div>
+
+
+
+        
+
+        <div class="clear"></div>
+    </div> 
+    <div id="footer">
+        <div class="mininav padded fatbottomed">
+	<a href="/default.asp">Home</a> | 
+	<a href="/about/default.asp">About</a> | 
+	<a href="https://www.marketwatch.com/support/jobs/default.asp?siteid=bigcharts&dist=bigcharts">Job Opportunities</a> | 
+	<a href="/about/default.asp#contact">Contact Us</a> | 
+    <a href="https://customercenter.marketwatch.com/contact">Feedback</a> | 
+	<a class="openhelp" href="/Help">Help</a>
+</div>
+        
+<p class="fatbottomed acenter">
+    Copyright 2022 MarketWatch, Inc.  All rights reserved.
+    <br />
+    By using this site, you agree to the <a href="https://www.marketwatch.com/site/subscriber-agreement?siteid=bigcharts">Subscriber Agreement &amp; Terms of Use</a>,
+    <a href="https://www.dowjones.com/privacy-notice?mod=mw" target="_blank">Privacy Notice</a>,
+    <a href="https://www.dowjones.com/cookie-notice?mod=mw" target="_blank">Cookie Notice</a><span id="manage-cookies"> (<a class="link">Manage Cookies</a>)</span>    and <a href="https://www.dowjones.com/cookie-notice/#cookies-advertising" target="_blank">Your Ad Choices</a>.
+    <br>
+        <a href="https://www.dowjones.com/notice-ca-residents/?mod=MW" target="_blank">Do Not Sell My Personal Information</a>
+    <style>
+        a.link {
+            color: #000066;
+            text-decoration: none;
+        }
+        a.link:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        var manageCookies = document.getElementById('manage-cookies');
+        if (manageCookies && window.djcmp) {
+            window.djcmp.gdprApplies('tcfapiOnly', function (gdprApplies) {
+                if (gdprApplies) {
+                    var link = manageCookies.querySelector('.link');
+                    link.addEventListener('click', 
+                        function () { window.djcmp.showConsentModal('marketwatch'); });
+                }
+            });
+        }
+    </script>
+</p>
+
+        
+<p class="fatbottomed acenter">
+	Intraday Data provided by FACTSET and subject to <a href="/about/terms.asp">terms of use</a>.
+	<br />
+    Historical and current end-of-day data provided by FACTSET. 
+    <br />
+    All quotes are in local exchange time.
+    <br />
+    Real-time last sale data for U.S. stock quotes reflect trades reported through Nasdaq only.
+    <br />
+    Intraday data delayed at least 15 minutes or per exchange requirements.
+</p>
+
+
+
+          
+    </div>            
+
+
+
+
+
+
+
+
+
+        
+    <script src="/content/v0022/js/jquery.cookie.js"></script>
+    <script src="/content/v0022/js/jquery.autocomplete.js"></script>
+    <script src="/content/v0022/js/modernizr-1.5.min.js"></script>    
+    <script src="/content/v0022/js/bigcharts.js?v=ebb"></script>
+    <script src="/content/v0022/js/bigcharts.autocomplete.js"></script>
+    <script src="/content/v0022/js/bigcharts.bluekai.js"></script>
+    <script src="/content/v0022/js/customelements.min.js"></script>
+    <script src="/content/v0022/js/lazysizes.min.js"></script>
+    <script src="/content/v0022/js/vendor/idealmedia.js"></script>
+    <script src="/content/v0022/js/vendor/zergnet.js"></script>
+    
+
+    
+    <script type="text/javascript" src="/content/v0022/js/bigcharts.charts.js"></script>
+
+        <script type="text/javascript" src="//www.dianomi.com/js/contextfeed.js"></script>
+
+        <!--utag_data -->
+<script type="text/javascript">
+          var utag_data = {
+                user_ref: "",
+                user_type: "free",
+                user_tags: "",
+                user_exp: "default",
+                page_site_product: "MWBC",
+                page_site: "MarketWatch",
+                page_content_type: "ResearchTools",
+                page_content_type_detail: "",
+                page_content_region: "North_America_USA",
+                page_content_language: "en-US",
+                page_content_source: "Big Charts",
+                page_section: "Chart",
+                page_subsection: "QuickChart",
+                page_topic: "",
+                page_id: "bc-quickchart",
+                page_ad_zone: "",
+                page_access: "free",
+                quote_company_name: "Alphabet Inc. Cl C",
+                quote_exchange: "NAS",
+                quote_instrument_type: "Stock",
+                quote_ticker: "GOOG",
+                cms_name: ""
+          }
+</script>
+
+
+    
+    <!-- Tealium -->
+    <script type="text/javascript">
+      (function() {
+        function loadTealiumScript() {
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '//tags.tiqcdn.com/utag/wsjdn/mwbigcharts/prod/utag.js';
+            var element = document.getElementsByTagName('script')[0];
+            element.parentElement.insertBefore(script, element);
+        }
+
+        if (window.djcmp && window.djcmp.gdprApplies('cookieOnly')) {
+            window.djcmp('onReady', function() {
+                loadTealiumScript();
+            });
+        } 
+        else {
+            loadTealiumScript();
+        }
+      })();
+    </script>
+
+
+            <!-- Proximic -->
+            <script type="text/javascript">                
+                function proximicLoad() {
+                    window.BigCharts = window.BigCharts || { };
+                    window.BigCharts.Ads = window.BigCharts.Ads || { };
+                    if (window.pxSegmentIDs) {
+                        window.BigCharts.Ads.proximicSegments = window.pxSegmentIDs.split(',');                    
+                        if (window.adslots) {
+                            var keys = Object.keys(window.adslots);
+                            for (var i = 0; i < keys.length; i++) {
+                                if (window.adslots[keys[i]] && window.adslots[keys[i]].slot) {
+                                    window.adslots[keys[i]].slot.setTargeting('psg', window.BigCharts.Ads.proximicSegments);
+                                }
+                            }
+                        }
+                    }
+                };
+            </script>
+            <script defer async onload="proximicLoad()" src="https://segment-data.zqtk.net/dowjones-d8s23j?url=https%3a%2f%2fbigcharts.marketwatch.com%2fquickchart%2fquickchart.asp%3fsymb%3dgoog"></script>
+               
+    </body>
+</html>
+
