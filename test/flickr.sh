@@ -1,0 +1,1 @@
+wget -q -O - https://api.flickr.com/services/feeds/photos_public.gne\?format\=json\&tags\=$1 | grep description | tr -d '\\' | grep -o '<.*/></a></p>' > $HOME/flickr.html

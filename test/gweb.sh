@@ -3,21 +3,25 @@
 # uncomment - output goes to file
 
 
-	exec > $HOME/ca170/test/gweb.output.html           
+exec > gweb.output.html           
 
 
 #cd /users/tutors/mhumphrysdculab/share/shakespeare
-cd /home/jamigo/ca170/notes/shakespeare
+#cd /home/jamigo/ca170/notes/shakespeare
+d="/shared/humphrys/shakespeare"
+cd $d
+
 
 
 clickable()
 {
  while read line
  do
-  file=` echo "$line" | cut -f1 -d':' `
-   hit=` echo "$line" | cut -f2 -d':'  `
+  file=`echo "$line" | cut -f1 -d':' `
+   hit=`echo "$line" | cut -f2 -d':'  `
  
-  echo "<a href='$file'>$file</a>: $hit <br>"
+  echo "<a href='$d/$file'>$file</a>: $hit <br>"
+
  done
 }
 
