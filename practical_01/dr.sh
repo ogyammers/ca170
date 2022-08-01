@@ -1,1 +1,4 @@
-ls -r
+for i in $*
+do
+rm i
+done
